@@ -204,7 +204,7 @@ enet_address_get_host (const ENetAddress * address, char * name, size_t nameLeng
         return 0;
     }
     if (err != EAI_NONAME)
-      return -1;
+      return 0;
 #else
     struct in_addr in;
     struct hostent * hostEntry = NULL;
@@ -341,6 +341,12 @@ enet_socket_set_option (ENetSocket socket, ENetSocketOption option, int value)
 
         case ENET_SOCKOPT_NODELAY:
             result = setsockopt (socket, IPPROTO_TCP, TCP_NODELAY, (char *) & value, sizeof (int));
+            break;
+
+        case ENET_SOCKOPT_NOSIGPIPE:
+#ifndef __linux__
+            result = setsockopt (socket, SOL_SOCKET, SO_NOSIGPIPE, (char *) & value, sizeof (int));
+#endif
             break;
 
         default:

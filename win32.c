@@ -211,6 +211,11 @@ enet_socket_set_option (ENetSocket socket, ENetSocketOption option, int value)
             result = setsockopt (socket, IPPROTO_TCP, TCP_NODELAY, (char *) & value, sizeof (int));
             break;
 
+/*
+        case ENET_SOCKOPT_NOSIGPIPE:
+            result = setsockopt (socket, SOL_SOCKET, SO_NOSIGPIPE, (char *) & value, sizeof (int));
+            break;
+*/
         default:
             break;
     }
