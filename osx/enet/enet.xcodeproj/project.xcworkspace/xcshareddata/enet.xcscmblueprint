@@ -1,25 +1,25 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d4cd59d4-4c6f-40b2-acae-47bd626435b4++9411",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d4cd59d4-4c6f-40b2-acae-47bd626435b4++2585",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "d4cd59d4-4c6f-40b2-acae-47bd626435b4++9411" : {
+    "d4cd59d4-4c6f-40b2-acae-47bd626435b4++2585" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "d4cd59d4-4c6f-40b2-acae-47bd626435b4++9411" : 0
+    "d4cd59d4-4c6f-40b2-acae-47bd626435b4++2585" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1CD497B9-1B8B-47AF-B18D-EFC8377B1752",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "d4cd59d4-4c6f-40b2-acae-47bd626435b4++9411" : "PM02\/"
+    "d4cd59d4-4c6f-40b2-acae-47bd626435b4++2585" : "tools\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "enet",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/tools\/enet\/osx\/enet\/enet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "enet\/osx\/enet\/enet.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn-pg.gz.netease.com\/svn",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d4cd59d4-4c6f-40b2-acae-47bd626435b4++9411"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d4cd59d4-4c6f-40b2-acae-47bd626435b4++2585"
     }
   ]
 }

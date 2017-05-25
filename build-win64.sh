@@ -11,7 +11,7 @@
 
 
 gcc -O3 -o Plugins/x86_64/enet.dll -m64 -shared \
-	callbacks.c  compress.c  host.c  list.c  packet.c  peer.c  protocol.c  server_proxy.c  unix.c  win32.c \
+	callbacks.c  compress.c  host.c  list.c  packet.c  peer.c  protocol.c  ikcp.c server_proxy.c  unix.c  win32.c \
     -I./include/ \
     -lWs2_32 -lwinmm -static-libgcc -static-libstdc++
 

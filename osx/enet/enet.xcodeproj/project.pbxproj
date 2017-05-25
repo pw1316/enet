@@ -17,6 +17,7 @@
 		A41E12CD1C847D1F00CF4A4C /* server_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = A41E12C21C847D1F00CF4A4C /* server_proxy.c */; };
 		A41E12CE1C847D1F00CF4A4C /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = A41E12C41C847D1F00CF4A4C /* unix.c */; };
 		A41E12CF1C847D1F00CF4A4C /* win32.c in Sources */ = {isa = PBXBuildFile; fileRef = A41E12C51C847D1F00CF4A4C /* win32.c */; };
+		ED1A40F21E8E42CF00290A24 /* ikcp.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1A40F11E8E42CF00290A24 /* ikcp.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,8 @@
 		A41E12C31C847D1F00CF4A4C /* server_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = server_proxy.h; path = ../../../server_proxy.h; sourceTree = "<group>"; };
 		A41E12C41C847D1F00CF4A4C /* unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unix.c; path = ../../../unix.c; sourceTree = "<group>"; };
 		A41E12C51C847D1F00CF4A4C /* win32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = win32.c; path = ../../../win32.c; sourceTree = "<group>"; };
-		A4C82B571D3D26CA00F6DAA6 /* enet.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = enet.bundle; path = /Users/kjianjun/Documents/svn/PM02/trunk/tools/enet/osx/enet/build/Release/enet.bundle; sourceTree = "<absolute>"; };
+		ED1A40EE1E8E426000290A24 /* enet.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enet.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1A40F11E8E42CF00290A24 /* ikcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ikcp.c; path = ../../../ikcp.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +52,14 @@
 			isa = PBXGroup;
 			children = (
 				A41E12B21C847C9F00CF4A4C /* enet */,
+				ED1A40EE1E8E426000290A24 /* enet.bundle */,
 			);
 			sourceTree = "<group>";
 		};
 		A41E12B21C847C9F00CF4A4C /* enet */ = {
 			isa = PBXGroup;
 			children = (
+				ED1A40F11E8E42CF00290A24 /* ikcp.c */,
 				A41E12BB1C847D1F00CF4A4C /* callbacks.c */,
 				A41E12BC1C847D1F00CF4A4C /* compress.c */,
 				A41E12BD1C847D1F00CF4A4C /* host.c */,
@@ -89,7 +93,7 @@
 			);
 			name = enet;
 			productName = enet;
-			productReference = A4C82B571D3D26CA00F6DAA6 /* enet.bundle */;
+			productReference = ED1A40EE1E8E426000290A24 /* enet.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -142,6 +146,7 @@
 				A41E12C61C847D1F00CF4A4C /* callbacks.c in Sources */,
 				A41E12CE1C847D1F00CF4A4C /* unix.c in Sources */,
 				A41E12C71C847D1F00CF4A4C /* compress.c in Sources */,
+				ED1A40F21E8E42CF00290A24 /* ikcp.c in Sources */,
 				A41E12C81C847D1F00CF4A4C /* host.c in Sources */,
 				A41E12CF1C847D1F00CF4A4C /* win32.c in Sources */,
 				A41E12C91C847D1F00CF4A4C /* list.c in Sources */,

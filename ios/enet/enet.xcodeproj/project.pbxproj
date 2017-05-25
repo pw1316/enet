@@ -16,6 +16,7 @@
 		A410C93B1C8474BA0073882C /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = A410C9311C8474BA0073882C /* protocol.c */; };
 		A410C93C1C8474BA0073882C /* server_proxy.c in Sources */ = {isa = PBXBuildFile; fileRef = A410C9321C8474BA0073882C /* server_proxy.c */; };
 		A410C93D1C8474BA0073882C /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = A410C9341C8474BA0073882C /* unix.c */; };
+		ED1A40ED1E8E419500290A24 /* ikcp.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1A40EC1E8E419500290A24 /* ikcp.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		A410C9321C8474BA0073882C /* server_proxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = server_proxy.c; path = ../../server_proxy.c; sourceTree = "<group>"; };
 		A410C9331C8474BA0073882C /* server_proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = server_proxy.h; path = ../../server_proxy.h; sourceTree = "<group>"; };
 		A410C9341C8474BA0073882C /* unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unix.c; path = ../../unix.c; sourceTree = "<group>"; };
+		ED1A40EC1E8E419500290A24 /* ikcp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ikcp.c; path = ../../ikcp.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		A410C9151C8474570073882C = {
 			isa = PBXGroup;
 			children = (
+				ED1A40EC1E8E419500290A24 /* ikcp.c */,
 				A410C92A1C8474BA0073882C /* callbacks.c */,
 				A410C92B1C8474BA0073882C /* compress.c */,
 				A410C92C1C8474BA0073882C /* host.c */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1A40ED1E8E419500290A24 /* ikcp.c in Sources */,
 				A410C93B1C8474BA0073882C /* protocol.c in Sources */,
 				A410C9351C8474BA0073882C /* callbacks.c in Sources */,
 				A410C93D1C8474BA0073882C /* unix.c in Sources */,
@@ -270,6 +274,7 @@
 				A410C9291C8474570073882C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
